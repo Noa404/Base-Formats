@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from xgboost import XGBClassifier
 
 #read in function
-def read_data(path:str):
+def read_data(path:str) -> pd.Dataframe:
     '''
     This is a base function to read in data.
     '''
